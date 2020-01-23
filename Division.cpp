@@ -3,7 +3,7 @@
 #include <stdio.h>
 ///////////////////////////////////////////////////////////////////////////////
 //Name			:Divide
-//Input		:int,int
+//Input			:int,int
 //output		:int
 //Description		:program to divide two numbers 
 //Auther		:Hrishikesh Nagargoje
