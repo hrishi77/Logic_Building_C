@@ -92,6 +92,7 @@ int main()
     scanf("%[^'\n']s",str);
 
     HexBinary(str);
+
     return 0;
 }
 
