@@ -1,0 +1,33 @@
+//Last char occurence in string
+#include <stdio.h>
+
+int LastChar(char *str,char ch)
+{
+    int i=0,j=0,Temp = 0;
+
+    while(str[i] != '\0')
+    {
+        if(str[i] == ch)
+        {
+            Temp = i;
+        }
+        i++;
+    }
+    return Temp;
+}
+
+int main()
+{
+    char str[100],ch = '\0';
+    int iRet=0;
+
+    printf("Enter String:");
+    scanf("%[^'\n']",str);  
+    printf("Enter the character: ");
+	scanf(" %c",&ch);
+     
+    iRet = LastChar(str,ch);
+
+    printf("%c occures in string at %d\n",ch,iRet);
+    return 0;
+}
